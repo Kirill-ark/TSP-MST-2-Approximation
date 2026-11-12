@@ -16,12 +16,12 @@ Stage 4 of Problem 15 (Traveling Salesperson Problem): builds a route from a Min
 
 This is Stage 4 of a five-stage group project on the Traveling Salesperson Problem:
 
-| Stage | Algorithm | Repository |
-|---|---|---|
-| 1-2 | Brute Force, Nearest Neighbor | [TSP-BruteForce-NearestNeighbor](https://github.com/abbasmammadoff/TSP-BruteForce-NearestNeighbor) |
-| 3 | Held-Karp (Bitmask DP) | [TSP-Algorithm-Held-Karp](https://github.com/Supr-giff/TSP-Algorithm-Held-Karp) |
-| 4 | Metric MST 2-Approximation | this repository |
-| 5 | 2-Opt + Simulated Annealing | |
+| Stage | Algorithm |
+|---|---|
+| 1-2 | Brute Force, Nearest Neighbor |
+| 3 | Held-Karp (Bitmask DP) |
+| **4** | **Metric MST 2-Approximation (this repository)** |
+| 5 | 2-Opt + Simulated Annealing |
 
 Exact methods (Brute Force, Held-Karp) become too slow at around 30 cities, and Nearest Neighbor is fast but gives no guarantee. The MST approximation is fast (O(n²)) and its route is never longer than 2 × OPT, as long as the distances satisfy the triangle inequality.
 
