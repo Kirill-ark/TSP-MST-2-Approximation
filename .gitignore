@@ -1,0 +1,10 @@
+# slides and printouts are shared separately
+*.pptx
+*.pdf
+~$*
+
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+CLAUDE.md
+.claude/
